@@ -1,0 +1,78 @@
+body{
+  background: #1a1a1a;
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.game{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row{
+  padding: 40px;
+}
+
+.circle{
+  height: 70px;
+  width: 70px;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+#red{
+  background-color: red;
+}
+
+#blue{
+  background-color: blue;
+  float: left;
+
+}
+
+#green{
+  background-color: green;
+  float: right;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+#roundinfo{
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#start{
+  margin-right: 5px;
+}
+
+
+#green:active, #green.active {
+	background-color: #0FD10F;
+	border: 3px solid	green;
+}
+
+#red:active, #red.active {
+	background-color: #b20000;
+	border: 3px solid	red;
+}
+
+#blue:active, #blue.active {
+	background-color: #59a9f7;
+	border: 3px solid	blue;
+}
+
+#yellow:active, #yellow.active {
+	background-color: #666600;
+	border: 3px solid	yellow;
+}
